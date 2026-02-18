@@ -1,0 +1,12 @@
+⏺ Bash(go test -v ./...)
+  ⎿  === RUN   TestTwoSum
+     --- PASS: TestTwoSum (0.00s)
+     PASS
+     ok         twosum  0.406s
+
+⏺ 全部測試通過。
+
+  解法說明： 使用 hash map，遍歷一次陣列（O(n) 時間、O(n) 空間）：
+  - 對每個元素 n，檢查 target - n 是否已存在於 map 中
+  - 若存在，直接回傳兩個 index
+  - 若不存在，將 n → index 存入 map 繼續往下找

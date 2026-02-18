@@ -1,0 +1,14 @@
+⏺ Bash(go mod init threesum && go test -v ./...)
+  ⎿  === RUN   TestThreeSum
+     === RUN   TestThreeSum/example_1
+     === RUN   TestThreeSum/example_2_-_no_triplet
+     … +10 lines (ctrl+o to expand)
+
+⏺ 全部測試通過。
+
+  演算法說明：
+  1. 先排序陣列
+  2. 固定第一個元素 nums[i]，用雙指針 lo/hi 從兩端往內找使三數之和為 0 的組合
+  3. 遇到重複值就跳過，確保結果不含重複的 triplet
+
+  時間複雜度 O(n²)，空間複雜度 O(1)（不計輸出）。
