@@ -6,9 +6,13 @@ import (
 
 	"basicAlgoDS/btree_traversal"
 	"basicAlgoDS/bubble_sort"
+	"basicAlgoDS/deque_array"
 	"basicAlgoDS/go_algods_example"
 	"basicAlgoDS/graph_adjacency_list"
 	"basicAlgoDS/graph_adjacency_matrix"
+	"basicAlgoDS/queue_array"
+	"basicAlgoDS/queue_linked_list"
+	"basicAlgoDS/selection_sort"
 	"basicAlgoDS/stack_array"
 	"basicAlgoDS/stack_linked_list"
 )
@@ -42,10 +46,18 @@ func main() {
 		btree_traversal.LevelOrder(n1)
 	case "bubble_sort":
 		bubble_sort.Run()
+	case "deque_array":
+		deque_array.Run()
 	case "graph_adjacency_list":
 		graph_adjacency_list.Run()
 	case "graph_adjacency_matrix":
 		graph_adjacency_matrix.Run()
+	case "queue_array":
+		queue_array.Run()
+	case "queue_linked_list":
+		queue_linked_list.Run()
+	case "selection_sort":
+		selection_sort.Run()
 	case "stack_array":
 		stack_array.Run()
 	case "stack_linked_list":

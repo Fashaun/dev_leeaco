@@ -32,6 +32,26 @@ The system SHALL read `os.Args[1]` as the package/folder name and invoke the cor
 - **WHEN** user runs `go run main.go stack_array`
 - **THEN** the system SHALL call `stack_array.Run()` and display the stack operations demo output
 
+#### Scenario: Queue linked list package name provided
+
+- **WHEN** user runs `go run main.go queue_linked_list`
+- **THEN** the system SHALL call `queue_linked_list.Run()` and display the queue operations demo output
+
+#### Scenario: Queue array package name provided
+
+- **WHEN** user runs `go run main.go queue_array`
+- **THEN** the system SHALL call `queue_array.Run()` and display the queue operations demo output
+
+#### Scenario: Deque array package name provided
+
+- **WHEN** user runs `go run main.go deque_array`
+- **THEN** the system SHALL call `deque_array.Run()` and display the deque operations demo output
+
+#### Scenario: Selection sort package name provided
+
+- **WHEN** user runs `go run main.go selection_sort`
+- **THEN** the system SHALL call `selection_sort.Run()` and display the sorting demo output
+
 #### Scenario: Unknown package name provided
 
 - **WHEN** user provides a package name that does not match any registered example
