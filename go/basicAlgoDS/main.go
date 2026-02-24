@@ -7,13 +7,16 @@ import (
 	"basicAlgoDS/btree_traversal"
 	"basicAlgoDS/bubble_sort"
 	"basicAlgoDS/deque_array"
+	"basicAlgoDS/dijkstra"
 	"basicAlgoDS/go_algods_example"
+	"basicAlgoDS/insertion_sort"
 	"basicAlgoDS/graph_adjacency_list"
 	"basicAlgoDS/graph_adjacency_matrix"
 	"basicAlgoDS/queue_array"
 	"basicAlgoDS/queue_linked_list"
 	"basicAlgoDS/selection_sort"
 	"basicAlgoDS/stack_array"
+	"basicAlgoDS/topological_sort"
 	"basicAlgoDS/stack_linked_list"
 )
 
@@ -48,6 +51,10 @@ func main() {
 		bubble_sort.Run()
 	case "deque_array":
 		deque_array.Run()
+	case "dijkstra":
+		dijkstra.Run()
+	case "insertion_sort":
+		insertion_sort.Run()
 	case "graph_adjacency_list":
 		graph_adjacency_list.Run()
 	case "graph_adjacency_matrix":
@@ -60,6 +67,8 @@ func main() {
 		selection_sort.Run()
 	case "stack_array":
 		stack_array.Run()
+	case "topological_sort":
+		topological_sort.Run()
 	case "stack_linked_list":
 		stack_linked_list.Run()
 	default:
