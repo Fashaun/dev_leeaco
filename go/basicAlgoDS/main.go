@@ -11,6 +11,7 @@ import (
 	"basicAlgoDS/dijkstra"
 	"basicAlgoDS/go_algods_example"
 	"basicAlgoDS/insertion_sort"
+	"basicAlgoDS/merge_sort"
 	"basicAlgoDS/graph_adjacency_list"
 	"basicAlgoDS/graph_adjacency_matrix"
 	"basicAlgoDS/queue_array"
@@ -58,6 +59,8 @@ func main() {
 		dijkstra.Run()
 	case "insertion_sort":
 		insertion_sort.Run()
+	case "merge_sort":
+		merge_sort.Run()
 	case "graph_adjacency_list":
 		graph_adjacency_list.Run()
 	case "graph_adjacency_matrix":
