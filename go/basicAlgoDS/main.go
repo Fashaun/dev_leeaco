@@ -10,6 +10,7 @@ import (
 	"basicAlgoDS/bubble_sort"
 	"basicAlgoDS/deque_array"
 	"basicAlgoDS/dijkstra"
+	"basicAlgoDS/dynamic_array_list"
 	"basicAlgoDS/go_algods_example"
 	"basicAlgoDS/insertion_sort"
 	"basicAlgoDS/linked_list"
@@ -61,6 +62,8 @@ func main() {
 		deque_array.Run()
 	case "dijkstra":
 		dijkstra.Run()
+	case "dynamic_array_list":
+		dynamic_array_list.Run()
 	case "insertion_sort":
 		insertion_sort.Run()
 	case "linked_list":
