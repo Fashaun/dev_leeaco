@@ -17,6 +17,7 @@ import (
 	"basicAlgoDS/merge_sort"
 	"basicAlgoDS/graph_adjacency_list"
 	"basicAlgoDS/graph_adjacency_matrix"
+	"basicAlgoDS/quick_sort"
 	"basicAlgoDS/queue_array"
 	"basicAlgoDS/queue_linked_list"
 	"basicAlgoDS/selection_sort"
@@ -74,6 +75,8 @@ func main() {
 		graph_adjacency_list.Run()
 	case "graph_adjacency_matrix":
 		graph_adjacency_matrix.Run()
+	case "quick_sort":
+		quick_sort.Run()
 	case "queue_array":
 		queue_array.Run()
 	case "queue_linked_list":
