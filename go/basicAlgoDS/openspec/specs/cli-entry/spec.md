@@ -72,6 +72,21 @@ The system SHALL read `os.Args[1]` as the package/folder name and invoke the cor
 - **WHEN** user runs `go run main.go bst_operations`
 - **THEN** the system SHALL call `bst_operations.Run()` and display the BST operations demo output
 
+#### Scenario: Merge sort package name provided
+
+- **WHEN** user runs `go run main.go merge_sort`
+- **THEN** the system SHALL call `merge_sort.Run()` and display the sorting demo output
+
+#### Scenario: Array operations package name provided
+
+- **WHEN** user runs `go run main.go array_operations`
+- **THEN** the system SHALL call `array_operations.Run()` and display the array operations demo output
+
+#### Scenario: Linked list package name provided
+
+- **WHEN** user runs `go run main.go linked_list`
+- **THEN** the system SHALL call `linked_list.Run()` and display the linked list operations demo output
+
 #### Scenario: Unknown package name provided
 
 - **WHEN** user provides a package name that does not match any registered example

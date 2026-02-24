@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"basicAlgoDS/array_operations"
 	"basicAlgoDS/bst_operations"
 	"basicAlgoDS/btree_traversal"
 	"basicAlgoDS/bubble_sort"
@@ -11,6 +12,7 @@ import (
 	"basicAlgoDS/dijkstra"
 	"basicAlgoDS/go_algods_example"
 	"basicAlgoDS/insertion_sort"
+	"basicAlgoDS/linked_list"
 	"basicAlgoDS/merge_sort"
 	"basicAlgoDS/graph_adjacency_list"
 	"basicAlgoDS/graph_adjacency_matrix"
@@ -31,6 +33,8 @@ func main() {
 	btree_traversal.Run()
 
 	switch os.Args[1] {
+	case "array_operations":
+		array_operations.Run()
 	case "bst_operations":
 		bst_operations.Run()
 	case "go_algods_example":
@@ -59,6 +63,8 @@ func main() {
 		dijkstra.Run()
 	case "insertion_sort":
 		insertion_sort.Run()
+	case "linked_list":
+		linked_list.Run()
 	case "merge_sort":
 		merge_sort.Run()
 	case "graph_adjacency_list":
