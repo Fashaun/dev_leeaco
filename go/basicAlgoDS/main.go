@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"basicAlgoDS/bst_operations"
 	"basicAlgoDS/btree_traversal"
 	"basicAlgoDS/bubble_sort"
 	"basicAlgoDS/deque_array"
@@ -29,6 +30,8 @@ func main() {
 	btree_traversal.Run()
 
 	switch os.Args[1] {
+	case "bst_operations":
+		bst_operations.Run()
 	case "go_algods_example":
 		go_algods_example.Run()
 	case "btree_traversal":

@@ -67,6 +67,11 @@ The system SHALL read `os.Args[1]` as the package/folder name and invoke the cor
 - **WHEN** user runs `go run main.go topological_sort`
 - **THEN** the system SHALL call `topological_sort.Run()` and display the topological ordering demo output
 
+#### Scenario: BST operations package name provided
+
+- **WHEN** user runs `go run main.go bst_operations`
+- **THEN** the system SHALL call `bst_operations.Run()` and display the BST operations demo output
+
 #### Scenario: Unknown package name provided
 
 - **WHEN** user provides a package name that does not match any registered example
